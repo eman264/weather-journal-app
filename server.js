@@ -37,7 +37,7 @@ app.get('/all' , sendData)
 
 function sendData(req,res){
     res.send(projectData);
-    projectData = [];
+    projectData = {};
 }
 
 // Post Route
